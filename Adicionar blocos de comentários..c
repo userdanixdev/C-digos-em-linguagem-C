@@ -5,14 +5,15 @@
 
 int main(int argc, char *argv[])
  {
- 	/* Comando de comentário é barra virada
- 	para a direita e asterisco. Com esse comando
- 	vc cria um BLOCO de comentário
- 	E NO FINAL, ASTERISCO e BARRA NO FINAL DO BLOCO
- 	
- 	*/
- 	printf("HELLO WORLD");
- 	
- 	
+ 	/*system pause é específico do windows
+ 	não use ele em outro sistema operacional*/
+ 	//system ("pause");
+ 	printf("\nPressione qualquer tecla para finalizar.");
+	//usuario precisa algum caractere//
+	//getchar();
+	//coloque no final getchar//
+/*ou scanf("%c"),%c ira ler qualquer
+	caracter ao pressionar*/
+ 	scanf("%c");
 	return 0;
 }
