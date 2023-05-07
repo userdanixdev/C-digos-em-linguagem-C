@@ -11,13 +11,18 @@ int main(int argc, char *argv[])
  	*/
  	char a,b;
  	
- 	printf("Digite duas letras:");
- 	scanf("%c %c",&a,&b);
- 	// o enter do teclado sera lido - BUFFER DO TECLADO //
+ 	printf("Digite uma letra: ");
+ 	scanf("%c",&a);
+ 	/*podemos colocar uma funcao entre as outras 
+ 	sem colocar o espaco na segunda funcao - */
+ 	//incluindo mais uma funcao de leitura do usuario//
+ 	scanf("%c");// a funcao ira remover o BUFFER DE TECLADO//
+ 	
+ 	printf("Digite um letra:");
+ 	scanf("%c",&b);
+	 //ENTER foi lido na segunda funcao//
+	 //use ESPACO na segunda funcao//
  	printf("Primeira letra: %c\nSegunda letra: %c",a,b);
- 	/*leitura logica do programa,colocar espaco como COMANDO
- 	para desconsiderar o buffer do teclado */
- 	//ENTER, TAB ou ESPACO - sera desconsiderado//
- 	//fflush(); - FUNCIONA SOMENTE Windows - 
+ 	
 	return 0;
 }
