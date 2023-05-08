@@ -20,12 +20,10 @@ printf("\nSubtracao: %d\n", 10 - 20);
 	*/ 
 	//COM VARIAVEIS NA MATEMATICA//
 	//conversao de tipos de variaveis//
-int a = 10,b = 20;
-
-printf("\nSoma: %d\n",a +b);
-printf("\nSubtracao: %d\n", a - b);
- printf("\nMultiplicacao:  %d\n",a*b);
-	printf("\nDivisao:  %.2f\n", (float)a/(float)b);
+int a = 7,b = 21;
+//OPERAR RESTO DE DIVISAO//
+//printf("\nResto da Divisao inteira:  %.d\n",10 % 20);
+printf("\nResto da Divisao inteira:  %d\n",b % 2);
 //inteiro dividido por inteiro resultado INTEIRO//
 	
 	
