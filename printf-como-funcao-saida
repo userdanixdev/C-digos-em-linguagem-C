@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[]){
+//caractere de escape para saltar uma linha -->  \n
+//printf é uma funcao de saida//
+
+Int main () 
+
+printf("Ola, Seja bem vindo!");
+
+return 0;
+
+}
