@@ -5,19 +5,23 @@
 
 int main(int argc, char *argv[])
  {
- 	int vetor[10];
-   //operador sizeof//
-   //alocacao dinamica tipos primitivos ou de criacao//
-   //printf("Tamanho em memória de um tipo inteiro: %d bytes\n", sizeof(int));
-   //na arquitetura da minha maquina um inteiro sao 4 bytes//
-   //uma variavel inteiro possui 4 bytes//
-   //EXISTEM DUAS FORMAS://
-   
-   printf("Tamanho de um charactere na memoria: %d bytes\n", sizeof (vetor));
-// FLOAT tambem ocupa 32 bits na memoria//
-// para tipo primitivo usa paranteses no sizeof//
-// LEMBRANDO QUE E UM OPERADOR, CONSTANTE.nao e funcao//
-
+  /*operador SHORT para tipo INTEIROS
+  INTERVALO: -32.768 ate 32.767 tipos inteiros
+  use o %hi ou %d */
+  short int x = 32767;
+  int y = 0;
+  printf("Tamanho de um int na memoria: %d bytes\n",sizeof y);
+  printf("Tamanho memoria em SHORT INT: %d bytes\n",sizeof x);
+  //
+  /*  int y = 0;
+  short int x = 32767;
+  
+  printf("Valor de x: %d\n",x);
+  x++;
+  printf("Valor de x: %hi bytes\n",x);
+  
+  
+  */
  	
  	
 	return 0;
