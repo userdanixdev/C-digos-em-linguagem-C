@@ -5,9 +5,9 @@
 
 int main(int argc, char *argv[])
  {
- 	/* Comando de coment·rio È barra virada
+ 	/* Comando de coment√°rio √© barra virada
  	para a direita e asterisco. Com esse comando
- 	vc cria um BLOCO de coment·rio
+ 	vc cria um BLOCO de coment√°rio
  	E NO FINAL, ASTERISCO e BARRA NO FINAL DO BLOCO
  	
  	*/
