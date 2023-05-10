@@ -13,15 +13,24 @@ int main(int argc, char *argv[])
  
  
  
-                /*    OPERADOR TERN¡RIO:
-           CONDI«√O ? VERDADADEIRO :(DOIS PONTOS) FALSO;
+                /*    OPERADOR TERN√ÅRIO:
+           CONDI√á√ÉO ? VERDADADEIRO :(DOIS PONTOS) FALSO;
  
  */
  
  
-  printf("Operador Tern·rio: \n");
-  a < 0 ? printf("\n\tValor negativo\n") :printf("Valor positivo ou igual a zero\n");
+  printf("Operador Tern√°rio: \n");
+  a < 0 ? printf("\n\tValor negativo\n") :printf("Valor positivo ou igual a zero\n"); 
+ 
+ /*operador TERN√°RIO ANINHADO*/
   
+  printf("Operador Tern√°rio: \n");
+  a < 0 ? printf("\n\tValor negativo\n") :
+  a > 0 ?printf("Valor positivo\n") :printf("Valor igual a zero\n");
+   
+  //_________________________________//
+ 
+ 
   printf("\n\tIF/ELSE:\n");
 if(a < 0){
  
@@ -35,13 +44,13 @@ if(a < 0){
   printf("\n\tValor positivo ou igual a zero!\n");
   printf("\n\tValor positivo ou igual a zero!\n");
     
-    printf("\nContinuaÁ„o do programa\n");
+    printf("\nContinua√ß√£o do programa\n");
     
 	}
-	/* se for apenas uma instruÁ„o o uso de chaves
-	È OPCIONAL.
-	Se for mais de uma instruÁ„o o uso de chaves
-	Ë obrigatÛrio*/
+	/* se for apenas uma instru√ß√£o o uso de chaves
+	√© OPCIONAL.
+	Se for mais de uma instru√ß√£o o uso de chaves
+	√® obrigat√≥rio*/
 	
 	
 	return 0;
