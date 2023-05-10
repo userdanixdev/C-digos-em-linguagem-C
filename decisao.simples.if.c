@@ -7,8 +7,8 @@ int main(int argc, char *argv[])
 {	setlocale(LC_ALL,"Portuguese");
 
 
-/*DECIS�O SIMPLES:
-Verificando se um n�mero � negativo.
+/*DECISÃO SIMPLES:
+Verificando se um número é negativo.
 */
  int a = 10;
  
@@ -17,8 +17,28 @@ Verificando se um n�mero � negativo.
  
  if(a < 0)
  printf("\nValor negativo!\n");
-  printf("\nContinua��o do programa\n");
+  printf("\nContinuação do programa\n");
    
+ /*DECISÃO COMPLETA
+	
+	SE SE FOR VERDADEIRO; ---IF
+	SENÃO SE FOR FALSO; ---ELSE
+	*/
+	int a = 10;
+ 
+ printf("\nDigite um valor qualquer: ");
+ scanf("%d", &a);
+ 
+ if(a < 0)
+ printf("\nValor negativo!\n");
+  //if salta para o else //
+  else 
+  printf("\n\tValor positivo ou igual a zero!\n");
+    printf("\nContinuação do programa\n");
+	/* se for apenas uma instrução o uso de chaves
+	é OPCIONAL.
+	Se for mais de uma instrução o uso de chaves
+	è obrigatório*/
 	
 	
 	return 0;
