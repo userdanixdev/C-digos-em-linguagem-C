@@ -3,16 +3,16 @@
 #include <locale.h>
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) 
-{	setlocale(LC_ALL,"Portuguese");
- /*O IMC (ÍNDICE DE MASSA CORPORAL) pode ser calculado 
+int main //(int argc, char *argv[]) 
+//{	setlocale(LC_ALL,"Portuguese");
+ /*O IMC (ÃNDICE DE MASSA CORPORAL) pode ser calculado 
  dividindo-se o peso da pessoa (em KG) pela altura(H em metros)
- elevado ao quadrado (IMC=m/h²).
+ elevado ao quadrado (IMC=m/hÂ²).
  Escreva um programaque leia o peso e a altura de uma pessoa,
- calcule e mostre o IMC e a faixa em que o indivíduo se enquadra
+ calcule e mostre o IMC e a faixa em que o indivÃ­duo se enquadra
  de acordo com a tabela abaixo:
  
- 		IMC						INTERPRETAÇÃO
+ 		IMC						INTERPRETAÃ‡ÃƒO
  	Menor que 18,5				abaixo do peso
 	Entre 18,5 e menor que 25   Peso normal
 	Entre 25 e menor que 30		Sobrepeso
@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	 	
  		 */
  		 
- // determinar a criação de variáveis//
+ // determinar a criaÃ§Ã£o de variÃ¡veis//
   
   
  
@@ -45,7 +45,7 @@ else if(imc >= 30 && imc < 35)
 	printf("IMC: %f\tObesidade grau 1\n",imc);
 else if(imc >= 35 && imc < 40)
 	printf("IMC: %f\tObesidade grau 2\n", imc);
-else //nao preciso de if, somente uma e ultima condição//
+else //nao preciso de if, somente uma e ultima condiÃ§Ã£o//
 	printf("IMC: %.2f\tObesidade grau 3\n", imc);
 		
 
