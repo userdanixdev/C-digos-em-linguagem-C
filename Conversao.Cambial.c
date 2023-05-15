@@ -6,36 +6,31 @@
 int main(int argc, char *argv[]) 
 {	setlocale(LC_ALL,"Portuguese");
 
-/* Crie um programa que permita fazer a conversão de REAL
-para DOLLAR ou de DOLLAR para REAL. Utilize taxa de câmbio
-de $1 igual a R$5.30.
+printf("\n\t# Q4) Converte de Real para Dólar e vice-versa #\n");
+    
+    int opcao = 0;
+    float valorReal = 0, valorDolar = 0;
+    
+    printf("\n\tO que deseja fazer?\n");
+    printf("\n\t1 - Converter de Real para Dólar\n");
+    printf("\n\t2 - Converter de Dólar para Real\n");
+    printf("\n\tInforme a opção desejada: ");
+    scanf("%d",&opcao);
+    
+    if( opcao == 1 ){
+        printf("\n\tQual o valor em Reais que deseja converter para Dólar?\n\n\t");
+        scanf("%f",&valorReal);
+        printf("\n\tvalor = R$ %.2f\n", valorReal);
+        valorDolar = valorReal/5.30;
+        printf("\n\tValor convertido: U$ %.2f\n\n\n",valorDolar);
+    }else if( opcao == 2 ){
+        printf("\n\tQual o valor em Dólar que deseja converter para Real?\n\n\t");
+        scanf("%f",&valorDolar);
+        printf("\n\tvalor = US$ %.2f\n", valorDolar);
+        valorReal = valorDolar*5.30;
+        printf("\n\tValor convertido: R$ %.2f\n\n\n",valorReal);
+    }
 
-*/
-float valor,valorConvertido;
-int opcao;
-
-printf("Digite o valor que deseja converter: ");
-scanf("%f",&valor);
-
-printf("\n1 -  Converter de REAL para DOLLAR\n2 - Converter de DOLLAR para REAL\n");
-scanf("%d",&opcao);
-
-switch(opcao){
-	case 1:
-		//converter de real para dollar//
-		valorConvertido = valor / 5.5;
-			printf("Valor convertido: $%.2f dólares\n",valorConvertido);
-		break;
-	case 2:
-		//dollar para real//
-		valorConvertido = valor * 5.5;
-			printf("Valor convertido: R$%.2f reais\n",valorConvertido);
-		break;
-		default:
-		printf("\nOpção inválida...\n");
-			
-}
-//	printf("Valor convertido: %.2f\n",valorConvertido);
 	
 	return 0;
 }
