@@ -15,8 +15,8 @@ _All code in this repository is for educational use and may be used to build on 
 _Site do Wagner Gaspar_ : https://wagnergaspar.com/curso-gratuito-de-programacao-c/
 ***
 
-- [x] Introdução a linguagem 
-- [x] Estrtuturas de decisão e seleção
+- [x] Introdução a linguagem :grinning:
+- [x] Estrtuturas de decisão e seleção 😃
 - [ ] Estrututras de repetição
 - [ ] Estruturas de dados homogênas -  Vetor e Raiz (Arrays)
 - [ ] Strings
