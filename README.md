@@ -34,3 +34,6 @@ _Site do Wagner Gaspar_ : https://wagnergaspar.com/curso-gratuito-de-programacao
 - [ ] Manipulação de bits
 - [ ] Árvore Binária de busca balanceada - AVL
 ***
+
+
+
