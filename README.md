@@ -35,5 +35,8 @@ _Site do Wagner Gaspar_ : https://wagnergaspar.com/curso-gratuito-de-programacao
 - [ ] Árvore Binária de busca balanceada - AVL
 ***
 
+A maioria dos arquivos possuem comentários explicativos (em português) sobre os códigos e suas propriedades para facilitar o entendimento.
 
+_Most files have explanatory comments (in portuguese)about the codes and their properties to facilitate understanding._
 
+***
