@@ -36,13 +36,13 @@ if(a < 0){
  
  
  printf("\nValor negativo!\n");
- printf("\nValor negativo!\n");
+ 
   //if salta para o else //
  
    }
   else{
   printf("\n\tValor positivo ou igual a zero!\n");
-  printf("\n\tValor positivo ou igual a zero!\n");
+  
     
     printf("\nContinuação do programa\n");
     
