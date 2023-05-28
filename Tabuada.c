@@ -15,9 +15,11 @@ do{
 	printf("Digite um valor entre 1 e 10: ");
 	scanf("%d", &num);
 	}while(num < 1 || num>10);
-	/* essa estrutura de repetição para que o usuário ponha um numero
+	/* essa estrutura de repetiÃ§Ã£o para que o usuÃ¡rio ponha um numero
 	que nao seja entre os 10 da tabuada
 	*/
+ 
+ // Essa Ã© a segunda parte para calcular e imprimir a tabuada usando a estrutura de FOR //
 	for (i = 1; i <=10; i++)
 		printf("%d * %d = %d\n",num, i, num*i);
 		
