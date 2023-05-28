@@ -16,7 +16,7 @@ _Site do Wagner Gaspar_ : https://wagnergaspar.com/curso-gratuito-de-programacao
 ***
 
 - [x] Introdução a linguagem :grinning:
-- [x] Estrtuturas de decisão e seleção 😃
+- [x] Estrututuras de decisão e seleção 😃
 - [ ] Estrututras de repetição
 - [ ] Estruturas de dados homogênas -  Vetor e Raiz (Arrays)
 - [ ] Strings
