@@ -40,3 +40,4 @@ A maioria dos arquivos possuem comentários explicativos (em português) sobre o
 _Most files have explanatory comments (in portuguese)about the codes and their properties to facilitate understanding._
 
 ***
+    _21/07/2023_ - Parado por prazo indeterminado - 
