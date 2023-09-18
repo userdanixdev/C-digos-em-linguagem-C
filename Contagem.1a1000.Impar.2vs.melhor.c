@@ -7,24 +7,26 @@ int main(int argc, char *argv[])
 {	setlocale(LC_ALL,"Portuguese_Brazil");
 
 
-	/* SOMA de números impares de 1 a 1000 e mostre a resposta
-	como sabemos quantos vezes sera executado o códido então è PARA
+	/* SOMA de nÃºmeros impares de 1 a 1000 e mostre a resposta
+	como sabemos quantos vezes sera executado o cÃ³dido entÃ£o Ã¨ PARA
 			
-			Porém, com restrição de desempenho para execução em 500 vezes
+			PorÃ©m, com restriÃ§Ã£o de desempenho para execuÃ§Ã£o em 500 vezes
 	*/
 	int i,soma = 0;	// soma para acumular com 0(zero) //
-					// tipo um vetor de inicialização //
+					// tipo um vetor de inicializaÃ§Ã£o //
 	for (i=1;i<=1000;i+=2){ //incremento pode ser de 2 em 2 //
-	// então temos a certeza que todos os valores são impares//
-	// eliminando o if de decisão e elimina tbm 1000 testes //
+	// entÃ£o temos a certeza que todos os valores sÃ£o impares//
+	// eliminando o if de decisÃ£o e elimina tbm 1000 testes //
 		//if(i % 2 ==1)// 
 			soma += i; // soma = soma +1 // sera executado 500 vezes //
 	printf("%3d ",i);		
 }  // nao esquecer de colocar o par de chaves, pelo printf //
 			
-	printf("\nSoma dos números ímpares de 1 a 1000: %d\n\n", soma);
+	printf("\nSoma dos nÃºmeros Ã­mpares de 1 a 1000: %d\n\n", soma);
 						
 					
 					
 	return 0;
 }
+
+Colocar o resultado depois
